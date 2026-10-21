@@ -24,3 +24,9 @@ jobs:
 
       - name: Build APK File
         run: eas build --platform android --profile preview --non-interactive
+      - name: Setup Expo
+        uses: expo/expo-github-action@v8
+        with:
+          eas-version: latest
+          token: ${{ secrets.EXPO_TOKEN }}
+          packager: npm
