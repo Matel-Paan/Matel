@@ -7,10 +7,25 @@
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+      {
+  "expo": {
+    "name": "Digital Khata",
+    "slug": "digital-khata",
+    "version": "1.0.0",
+    "android": {
+      "package": "com.rahulkumar.digitalkhata"
+    },
+    "plugins": [
+      "expo-font"
+    ]
+  }
+}
+
     },
     "ios": {
       "supportsTablet": true
